@@ -172,7 +172,7 @@
 
 
 /* ----------responsiveness----------- */
- @media only screen and (max-width:390px) {
+ @media only screen and (max-width:395px) {
      .container{
         width: 100%;
         height: auto;
