@@ -128,10 +128,7 @@
 .feature-part{
     display: flex;
 }
-.img-part{
-    /* width: 50%; */
 
-}
 .img-part img{
     width: 404px;
     height: 270px;
@@ -171,4 +168,113 @@
     margin:20px ;
     /* padding-top: 20px; */
     align-items: center;
+}
+
+
+/* ----------responsiveness----------- */
+ @media only screen and (max-width:390px) {
+     .container{
+        width: 100%;
+        height: auto;
+        
+    
+     }
+    .left-item{
+       margin-right: 4rem
+        
+        
+    }
+    .nav-item{
+        display: none;
+    }
+  
+    .nav{
+        justify-content: end;
+      
+    }
+
+    .body-part-1{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .bod1-right{
+        align-items: center;
+        justify-content: center;
+    }
+    .body1-img{
+        align-items: center;
+        justify-content: center;
+    }
+    .body1-img img{
+        width: 60%;
+       margin-left: 20% ;
+        
+    }
+    .body1-left{
+        width: auto;
+        text-align: center;
+    }
+    .body1-info > p > br{
+        display: none;
+    }
+    .border{
+        display: none;
+    }
+    .logos{
+        margin-top: 40px;
+    }
+    .logos{
+        text-align: center;
+    }
+   
+    .logos img{
+        margin: 10px 20px;
+        width: 13%;
+        
+       
+    }
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        justify-items: center;
+        margin-bottom: 35rem;
+        
+       
+    }
+    
+    .seeMoreBtn{
+        padding-top: 6.5rem;
+        margin-right: 45px;
+    }
+    .body-last-part{
+        margin-top: 2rem;
+    }
+    
+
+    .feature-part{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .info-part{
+        margin: 2rem; 
+        text-align: center;
+        
+    }
+    .info-part > a{
+        margin-top: 1rem;
+        border-radius: 20px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .img-part img{
+        width: 350px;
+        margin: 0;
+    }
+
+
+
+
+
+
 }
